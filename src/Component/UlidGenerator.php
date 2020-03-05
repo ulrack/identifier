@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright (C) Jyxon, Inc. All rights reserved.
+ * Copyright (C) GrizzIT, Inc. All rights reserved.
  * See LICENSE for license details.
  */
 
@@ -84,7 +84,7 @@ class UlidGenerator implements IdGeneratorInterface
             for ($i = 15; $i >= 0 && $this->lastRandom[$i] === 31; $i--) {
                 $this->lastRandom[$i] = 0;
             }
-    
+
             if ($i !== 0) {
                 $this->lastRandom[$i]++;
 

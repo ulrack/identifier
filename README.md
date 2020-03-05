@@ -2,7 +2,7 @@
 
 # Ulrack Identifier
 
-This package contains a few algorithms to generate unique identifiers. 
+This package contains a few algorithms to generate unique identifiers.
 
 ## Installation
 
@@ -23,7 +23,7 @@ The ULID generator generates identifiers based on the ULID algorithms.
 ### [UlidPidGenerator](src/Component/UlidPidGenerator.php)
 
 The ULID PID generator expands upon the UlidGenerator to create a more
-unique identifier. It adds 4 additional characters to the ULID based 
+unique identifier. It adds 4 additional characters to the ULID based
 on the PID assigned to the executing PHP process. This excludes (the
 extremely unlikely) possibility of a matching ID being generated
 between in 2 separate PHP processes which simultaneously generate an
@@ -31,7 +31,7 @@ ID.
 
 ### [RandomByteIdGenerator](src/Component/RandomByteIdGenerator.php)
 
-The random bye ID generator generates an identifier based on a set amount of 
+The random bye ID generator generates an identifier based on a set amount of
 random bytes which get converted to their hexadecimal counterpart.
 This generator can be instantiated with the number of bytes that should be used.
 The number of bytes times two will be the resulting identifier length.
@@ -46,7 +46,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT
 
 ## MIT License
 
-Copyright (c) 2019 Jyxon
+Copyright (c) 2019 GrizzIT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
