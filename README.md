@@ -1,3 +1,5 @@
+# DEPRECATION NOTICE: this package has been moved and improved at [grizz-it/identifier](https://github.com/grizz-it/identifier)
+
 [![Build Status](https://travis-ci.com/ulrack/identifier.svg?branch=master)](https://travis-ci.com/ulrack/identifier)
 
 # Ulrack Identifier
